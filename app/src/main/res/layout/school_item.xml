@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/schoolTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:textSize="10pt" />
+
+    <TextView
+        android:id="@+id/schoolPhone"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/schoolTextView"
+        android:visibility="gone"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:textSize="8pt" />
+
+    <TextView
+        android:id="@+id/schoolEmail"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/schoolPhone"
+        android:visibility="gone"
+        android:layout_height="40dp"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:textSize="8pt" />
+
+    <TextView
+        android:id="@+id/satNumber"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_height="40dp"
+        android:visibility="gone"
+        android:layout_below="@id/schoolEmail"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:textSize="8pt" />
+
+    <TextView
+        android:id="@+id/satReading"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/satNumber"
+        android:layout_height="40dp"
+        android:visibility="gone"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:textSize="8pt" />
+
+    <TextView
+        android:id="@+id/satMath"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/satReading"
+        android:visibility="gone"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:textSize="8pt" />
+
+    <TextView
+        android:id="@+id/satWriting"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/satMath"
+        android:layout_height="40dp"
+        android:visibility="gone"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:textSize="8pt" />
+
+</RelativeLayout>
